@@ -6,6 +6,7 @@ import Projects from './Projects.js';
 import Services from './Services.js';
 import Contact from './Contact.js';
 import Homepage from './Homepage.js';
+import Footer from './Footer.js';
 
 
 function Routes(){
@@ -33,6 +34,8 @@ function Routes(){
       </Route>
       <Redirect to="/" />
     </Switch>
+    <Footer />
+
     </>
   )
 }

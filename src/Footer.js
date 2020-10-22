@@ -3,12 +3,11 @@ import {NavLink} from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
-function Navigation(){
+function Footer(){
   return(
 
     <Navbar>
-      <Navbar.Brand><NavLink exact to="/">BAGS</NavLink></Navbar.Brand>
-      <Nav className="ml-auto">
+      <Nav className="m-auto">
         <Nav.Item><NavLink exact to="/about">ABOUT</NavLink></Nav.Item>
         <Nav.Item><NavLink exact to="/services">SERVICES</NavLink></Nav.Item>
         <Nav.Item><NavLink exact to="/projects">PROJECTS</NavLink></Nav.Item>
@@ -19,4 +18,4 @@ function Navigation(){
   )
 }
 
-export default Navigation
+export default Footer
