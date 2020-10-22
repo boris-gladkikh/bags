@@ -21,18 +21,6 @@ function Homepage() {
       </p>
 
       <div className="section-three my-5 py-5">
-        <h3>We work on your budget.</h3>
-        <p>
-          We maintain quality and ensure client satisfaction by providing our
-          services in a modular sense to structure our business to your needs.
-          We interface with other companies within larger contexts of a project
-          to fill multiple aspects of the process, such as vendor and print
-          management. We can also adapt to be a smaller portion of an overall
-          project and complete tasks to the customer specifications such as our
-          installation and fabrication services.
-        </p>
-      </div>
-      <div className="section-three my-5 py-5">
         <h3>We have experience.</h3>
         <p>
           Kogi echo park messenger bag VHS af. Biodiesel semiotics literally
@@ -60,10 +48,22 @@ function Homepage() {
           shorts.
         </p>
       </div>
+      <div className="section-three my-5 py-5">
+        <h3>We work within your budget.</h3>
+        <p>
+          We maintain quality and ensure client satisfaction by providing our
+          services in a modular sense to structure our business to your needs.
+          We interface with other companies within larger contexts of a project
+          to fill multiple aspects of the process, such as vendor and print
+          management. We can also adapt to be a smaller portion of an overall
+          project and complete tasks to the customer specifications such as our
+          installation and fabrication services.
+        </p>
+      </div>
       <div className="section-four my-5">
         <h5>
-          Bags seeks to be a better built, more flexible print solution for bay
-          area and west coast businesses.
+          BAGS seeks to be a better built, more flexible print solution for Bay
+          Area and west coast businesses.
         </h5>
       </div>
     </div>
