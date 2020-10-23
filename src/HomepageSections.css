@@ -1,0 +1,9 @@
+.detail-contain {
+  background-color: mintcream;
+}
+.detail {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+}

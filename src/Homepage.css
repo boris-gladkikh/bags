@@ -12,7 +12,6 @@
 .bags-logo {
   max-width: 40%;
   position:absolute;
-  /* z-index: 33; */
   margin-left: auto;
   margin-right: auto;
   left: 0;
@@ -20,6 +19,14 @@
   top: 20%;
 }
 
-.section-one {
-  height: 50vh;
+.intro-section {
+  min-height: 80vh;
+  background-color: white;
+}
+
+
+
+.end-section {
+  background-color:lime;
+  padding: 40px;
 }
