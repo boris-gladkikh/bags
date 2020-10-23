@@ -1,24 +1,30 @@
 import React from "react";
+import bridgeShot from "./img/sf-gg-bridge-shot.jpg";
+import bagsLogo from "./img/BAGS-logo-box-white.png";
+import "./Homepage.css";
 
 function Homepage() {
   return (
     <div className="App">
       <div className="banner-homepage">
-        <h2 className="placeholder my-5 py-5">Homepage image here</h2>
-        <h4>
-          Bay Area Graphic Solutions (BAGS) is a printing and design company
-          with an emphasis on customization and environmental graphic
-          implementation.
-        </h4>
-        <h5>
+        <img className="hero-banner" src={bridgeShot} alt="gg bridge" />
+        <img className="bags-logo" src={bagsLogo} alt="logo for BAGS" />
+      </div>
+
+      <div className="m-5 px-4 section-one">
+        <h2 className="mt-3">
+          Bay Area Graphic Solutions (BAGS) 
+        </h2>
+        <h4>A printing & design company with
+          an emphasis on customization and environmental graphic implementation.</h4>
+        <p className="placeholder my-5 px-5">
+          maybe insert a small carousel of projects?
+        </p>
+        <h5 className="mt-5">
           BAGS is a graphics fabricator, installation service, project
           management service and design firm in one.
         </h5>
       </div>
-
-      <p className="placeholder my-5 py-5">
-        maybe insert a small carousel of projects?
-      </p>
 
       <div className="section-three my-5 py-5">
         <h3>We have experience.</h3>
