@@ -1,0 +1,27 @@
+nav {
+  padding: 2rem;
+}
+nav a {
+  color: white;
+  transition: 200ms ease-in;
+}
+
+nav a.active {
+  font-weight:bold;
+  padding: 4px;
+  border: .5px solid white;
+
+
+}
+
+nav a:hover {
+  color:cyan;
+  font-weight:bold;
+
+  text-decoration: none;
+
+}
+
+.brand-logo{
+  width: 65px;
+}

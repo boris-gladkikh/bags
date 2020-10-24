@@ -1,21 +1,46 @@
-import React from 'react';
-import {NavLink} from 'react-router-dom';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+import React from "react";
+import { NavLink } from "react-router-dom";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
 
-function Footer(){
-  return(
+function Footer() {
+  return (
+    <div className="text-center bg-dark text-white">
 
-    <Navbar>
-      <Nav className="m-auto">
-        <Nav.Item><NavLink exact to="/about">ABOUT</NavLink></Nav.Item>
-        <Nav.Item><NavLink exact to="/services">SERVICES</NavLink></Nav.Item>
-        <Nav.Item><NavLink exact to="/projects">PROJECTS</NavLink></Nav.Item>
-        <Nav.Item><NavLink exact to="/contact">CONTACT</NavLink></Nav.Item>
-      </Nav>
-    </Navbar>
-  
-  )
+      <Navbar className="bg-dark text-white">
+        <Nav className="m-auto">
+          <Nav.Item className="mx-2">
+            <NavLink exact to="/about">
+              <small>ABOUT</small>
+            </NavLink>
+          </Nav.Item>
+          <Nav.Item className="mx-2">
+            <NavLink exact to="/services">
+              <small>SERVICES</small>
+            </NavLink>
+          </Nav.Item>
+          <Nav.Item className="mx-2">
+            <NavLink exact to="/projects">
+              <small>PROJECTS</small>
+            </NavLink>
+          </Nav.Item>
+          <Nav.Item className="mx-2">
+            <NavLink exact to="/contact">
+              <small>CONTACT</small>
+            </NavLink>
+          </Nav.Item>
+        </Nav>
+      </Navbar>
+      <small><a href="#nav">Back to Top</a></small>
+      <div className="pt-5">
+      <small>Bay Area Graphic Solutions</small><br />
+      <small>1-707-563-9435</small><br />
+      <small><a href="mailto:info@bagraphicsolutions.com">info@bagraphicsolutions.com</a></small> <br/>
+      <small>Website by <a href="https://borisgladkikh.com" target="_blank" rel="noopener noreferrer">Boris Gladkikh</a></small>
+
+      </div>
+    </div>
+  );
 }
 
-export default Footer
+export default Footer;
