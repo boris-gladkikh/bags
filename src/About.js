@@ -1,11 +1,18 @@
 import React from "react";
+import sfStreet from './img/sf-night-storefront-shot.jpg'
+// import sfStreet from './img/sf-overhead-shot.jpg'
+import './About.css';
 
 function About() {
   return (
     <div className="App">
-      <h2 className="placeholder my-5 py-5">About image here</h2>
-
-      <div className="text-left">
+      <div className="about-section">
+      <img className="about-pic" src={sfStreet} alt="sf market street"></img>
+      <div className="about-header-text">
+        <h1>WHO WE ARE</h1>
+      </div>
+      </div>
+      <div className="text-center about-text">
         <h5 className="my-3">
           BAGS was founded by Joe Hardy in the spring of 2020 as a result of the
           Covid 19 pandemic. Owner Joe Hardy has over 16 years of experience in

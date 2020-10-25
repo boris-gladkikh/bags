@@ -1,0 +1,13 @@
+.footer-box {
+background-color: rgb(58, 58, 58);
+}
+
+.footer-box a {
+  color: cyan;
+}
+
+.footer-box a:hover {
+  font-style: none;
+  color: magenta;
+
+}

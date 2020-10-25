@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import './Footer.css';
 
 function Footer() {
   return (
@@ -36,8 +37,7 @@ function Footer() {
           </Nav.Item>
         </Nav>
       </Navbar>
-      <div className="pt-5" style={{backgroundColor: "rgb(58, 58, 58)"}
-}>
+      <div className="py-5 footer-box">
       <small><a href="#nav">Back to Top</a></small><br/>
       <small>Bay Area Graphic Solutions</small><br />
       <small>1-707-563-9435</small><br />
