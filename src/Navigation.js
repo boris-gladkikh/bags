@@ -8,7 +8,7 @@ import './Navigation.css';
 function Navigation(){
   return(
 
-    <Navbar className="bg-dark text-white" id="nav">
+    <Navbar className="text-white" id="nav">
       <Navbar.Brand className="text-white" href="/"><img className="brand-logo" alt="" src={bagsLogo}></img></Navbar.Brand>
       <Nav className="ml-auto">
         <Nav.Item className="mx-2"><NavLink exact to="/">HOME</NavLink></Nav.Item>

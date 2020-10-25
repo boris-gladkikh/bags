@@ -5,7 +5,6 @@ import HomepageCards from "./HomepageCards.js";
 import "./Homepage.css";
 import HomepageSections from "./HomepageSections";
 import sectionDetails from "./sectionDetail";
-import HomepageEndSection from "./HomepageEndSection";
 
 function Homepage() {
   return (
@@ -15,7 +14,7 @@ function Homepage() {
         <img className="bags-logo" src={bagsLogo} alt="logo for BAGS" />
       </div>
 
-      <div className="intro-section">
+      <div className="intro-section pb-5">
         <h2 className="px-5 pt-5">
           We are a printing & design company with an emphasis on customization
           and environmental graphic implementation.
@@ -33,13 +32,16 @@ function Homepage() {
       </div>
 
       <div className="end-section">
-        <h5 className="py-5 box-text">
-          <em>
-            BAGS seeks to be a better built, more flexible print solution for
-            Bay Area and west coast businesses.
-          </em>
-        </h5>
-        <HomepageEndSection />
+        <div className="box-text">
+          <h5 className="p-3">
+            <em>
+              <strong>
+                BAGS seeks to be a better built, more flexible print solution
+                for Bay Area and west coast businesses.
+              </strong>
+            </em>
+          </h5>
+        </div>
       </div>
     </div>
   );
