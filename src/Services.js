@@ -1,8 +1,10 @@
 import React from "react";
 import sfStreet from "./img/sf-street-crossing.jpg";
-import "./Services.css";
+import Projects from './Projects';
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import "./Services.css";
+import projects from './projectList';
 
 function Services() {
   return (
@@ -14,9 +16,9 @@ function Services() {
         </div>
       </div>
       <div className="">
-        <Row>
+        <Row className="services-box">
           <Col md="6" sm="12">
-            <div className="my-5 design-box">
+            <div className="my-5 ">
               <h1 className="text-center">Design</h1>
               <p className="text-left px-5">
                 The design portion of the business is based on print project
@@ -29,7 +31,7 @@ function Services() {
             </div>
           </Col>
           <Col md="6" sm="12">
-            <div className="my-5  print-box ">
+            <div className="my-5 ">
               <h1 className="text-center ">Print & Installation</h1>
               <p className=" text-left px-5">
                 The printing side of the business is based on manufacturing and
@@ -43,10 +45,13 @@ function Services() {
           </Col>
         </Row>
 
-        <div className="client-box ">
+        <div className="client-box py-4">
           <h1 className="text-center pt-4">Our Clients</h1>
         </div>
         <div className="projects">
+        <h1 className="text-center pt-4">Projects</h1>
+
+          <Projects projects={projects} />
 
         </div>
       </div>

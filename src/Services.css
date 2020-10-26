@@ -4,16 +4,12 @@
 
 }
 
-.design-box {
+.services-box {
   min-height: 60vh;
-}
-.print-box {
-  min-height: 60vh;
-
 }
 
 .client-box {
-  min-height: 30vh;
+  min-height: 40vh;
   background-color: rgb(241, 241, 241);
 
 }
