@@ -14,7 +14,6 @@ function Navigation(){
         <Nav.Item className="mx-2"><NavLink exact to="/">HOME</NavLink></Nav.Item>
         <Nav.Item className="mx-2"><NavLink exact to="/about">ABOUT</NavLink></Nav.Item>
         <Nav.Item className="mx-2"><NavLink exact to="/services">SERVICES</NavLink></Nav.Item>
-        <Nav.Item className="mx-2"><NavLink exact to="/projects">PROJECTS</NavLink></Nav.Item>
         <Nav.Item className="mx-2"><NavLink exact to="/contact">CONTACT</NavLink></Nav.Item>
       </Nav>
     </Navbar>

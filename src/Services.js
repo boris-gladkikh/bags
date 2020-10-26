@@ -1,31 +1,54 @@
 import React from "react";
+import sfStreet from "./img/sf-street-crossing.jpg";
+import "./Services.css";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 function Services() {
   return (
     <div className="App">
-      <h2 className="placeholder my-5 py-5">Services image here</h2>
-
-      <div className="my-5 mx-4">
-        <h2>Design</h2>
-        <p>
-          The design portion of the business is based on print project
-          management and customization. We work with our customers to help
-          implement their design across a wide range of print mediums. In
-          addition we provide design and fabrication options to ensure your
-          design is seen the way the customer intends while staying within the
-          allotted budget.
-        </p>
+      <div className="about-section">
+        <img className="about-pic" src={sfStreet} alt="sf market street"></img>
+        <div className="about-header-text">
+          <h1>WHAT WE DO</h1>
+        </div>
       </div>
-      <div className="my-5 mx-4">
-        <h2>Print & Installation</h2>
-        <p>
-          The printing side of the business is based on manufacturing and
-          installation. We provide an in house printing firm that eliminates
-          many of the pitfalls that typically arise in having separate design
-          and print departments. In addition we also provide installation
-          services for graphics created by third party fabricators to customers
-          specifications.
-        </p>
+      <div className="">
+        <Row>
+          <Col md="6" sm="12">
+            <div className="my-5 design-box">
+              <h1 className="text-center">Design</h1>
+              <p className="text-left px-5">
+                The design portion of the business is based on print project
+                management and customization. We work with our customers to help
+                implement their design across a wide range of print mediums. In
+                addition we provide design and fabrication options to ensure
+                your design is seen the way the customer intends while staying
+                within the allotted budget.
+              </p>
+            </div>
+          </Col>
+          <Col md="6" sm="12">
+            <div className="my-5  print-box ">
+              <h1 className="text-center ">Print & Installation</h1>
+              <p className=" text-left px-5">
+                The printing side of the business is based on manufacturing and
+                installation. We provide an in house printing firm that
+                eliminates many of the pitfalls that typically arise in having
+                separate design and print departments. In addition we also
+                provide installation services for graphics created by third
+                party fabricators to customers specifications.
+              </p>
+            </div>
+          </Col>
+        </Row>
+
+        <div className="client-box ">
+          <h1 className="text-center pt-4">Our Clients</h1>
+        </div>
+        <div className="projects">
+
+        </div>
       </div>
     </div>
   );

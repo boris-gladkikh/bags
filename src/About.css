@@ -9,21 +9,24 @@
   overflow: hidden;
 }
 
-.about-text {
-  background-color:white;
-  padding: 4rem;
-  min-height: 70vh;
-  background-color: rgb(241, 241, 241);
-
-}
-
 .about-header-text {
+  border: 5px solid white;
   position: absolute;
-  top: 200px;
+  width: fit-content;
+  padding: 10px;
+  top: 40%;
   margin-left: auto;
   margin-right: auto;
   left:0;
   right:0;
   color: white;
 
+}
+.about-text {
+  background-color:white;
+  padding: 8rem;
+  /* padding-top: 8rem; */
+  min-height: 80vh;
+  background-color: rgb(241, 241, 241);
+  text-align: left;
 }

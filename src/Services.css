@@ -1,0 +1,19 @@
+.services-text {
+  padding: 40px;
+  background-color: rgb(241, 241, 241);
+
+}
+
+.design-box {
+  min-height: 60vh;
+}
+.print-box {
+  min-height: 60vh;
+
+}
+
+.client-box {
+  min-height: 30vh;
+  background-color: rgb(241, 241, 241);
+
+}

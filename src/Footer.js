@@ -26,11 +26,6 @@ function Footer() {
             </NavLink>
           </Nav.Item>
           <Nav.Item className="mx-2">
-            <NavLink exact to="/projects">
-              <small>PROJECTS</small>
-            </NavLink>
-          </Nav.Item>
-          <Nav.Item className="mx-2">
             <NavLink exact to="/contact">
               <small>CONTACT</small>
             </NavLink>
