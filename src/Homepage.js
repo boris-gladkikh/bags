@@ -15,11 +15,11 @@ function Homepage() {
       </div>
 
       <div className="intro-section pb-5">
-        <h2 className="px-5 pt-5">
+        <h2 className="noto-black-font px-5 pt-5">
           We are a printing & design company with an emphasis on customization
           and environmental graphic implementation.
         </h2>
-        <h5 className="my-5 pt-5 px-5">
+        <h5 className="roboto-font my-5 pt-5 px-5">
           Bay Area Graphic Solutions (BAGS) is a graphics fabricator,
           installation service, project management service and design firm in
           one.
@@ -33,14 +33,10 @@ function Homepage() {
 
       <div className="end-section">
         <div className="box-text">
-          <h5 className="p-3">
-            <em>
-              <strong>
+          <h4 className="noto-font p-3">
                 BAGS seeks to be a better built, more flexible print solution
                 for Bay Area and west coast businesses.
-              </strong>
-            </em>
-          </h5>
+          </h4>
         </div>
       </div>
     </div>

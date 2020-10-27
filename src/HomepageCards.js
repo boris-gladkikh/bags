@@ -11,7 +11,7 @@ function HomepageCards() {
       <Row>
         <Col sm="12" md="12" lg="4">
           <div className="cardy">
-            <h3>PRINT</h3>
+            <h3 className="roboto-font">PRINT</h3>
             <hr />
             <p>
               Kogi echo park messenger bag VHS af. Biodiesel semiotics literally
@@ -24,7 +24,7 @@ function HomepageCards() {
 
         <Col sm="12" md="12" lg="4">
           <div className="cardy">
-            <h3>DESIGN</h3>
+            <h3 className="roboto-font" >DESIGN</h3>
             <hr />
             <p>
               Kogi echo park messenger bag VHS af. Biodiesel semiotics literally
@@ -37,7 +37,7 @@ function HomepageCards() {
 
         <Col md="12" lg="4">
           <div className="cardy">
-            <h3>INSTALLATION</h3>
+            <h3 className="roboto-font">INSTALLATION</h3>
             <hr />
             <p>
               Kogi echo park messenger bag VHS af. Biodiesel semiotics literally

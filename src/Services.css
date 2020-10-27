@@ -13,3 +13,7 @@
   background-color: rgb(241, 241, 241);
 
 }
+
+.projects {
+  min-height: 70vh;
+}
