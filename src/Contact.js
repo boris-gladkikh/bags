@@ -1,25 +1,29 @@
-import React from 'react';
-import ContactForm from './ContactForm.js';
+import React from "react";
+import ContactForm from "./ContactForm.js";
 import oakland from "./img/sf-sunset.jpg";
+import './Contact.css';
 
-
-function Contact(){
-  return(
-    <div  className="App">
-        <div className="about-section">
+function Contact() {
+  return (
+    <div className="App">
+      <div className="about-section">
         <img className="about-pic" src={oakland} alt="sf market street"></img>
         <div className="about-header-text">
           <h1>REACH OUT ANYTIME.</h1>
         </div>
       </div>
-    <div className="my-5">
-    <h6 className="mt-4">
-      For inquiries, pricing, and general questions please use the provided form. We will get back to you within 24-36 hours.
-    </h6>
-    <ContactForm />
+      <div className="contact-section my-5">
+        <h4>707-563-9435</h4>
+        <h4><a href="mailto:info@bagraphicsolutions.com">info@bagraphicsolutions.com</a></h4>
+        <h6 className="mt-4">
+          We are available by phone from 9AM-5PM PST. <br />
+          For inquiries, pricing, and general questions please use the provided
+          form.
+        </h6>
+        <ContactForm />
+      </div>
     </div>
-    </div>
-  )
+  );
 }
 
-export default Contact
+export default Contact;

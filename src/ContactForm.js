@@ -67,7 +67,7 @@ function ContactForm() {
         />
       </Form.Group>
 
-      <Button type="submit">Submit</Button>
+      <Button variant="secondary" type="submit">Submit</Button>
     </Form>
   );
 }

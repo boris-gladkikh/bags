@@ -1,0 +1,9 @@
+.contact-section a {
+  transition: 300ms all;
+
+}
+
+.contact-section a:hover {
+  text-decoration: none;
+  color: magenta;
+}
