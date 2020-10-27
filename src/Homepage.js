@@ -7,6 +7,9 @@ import HomepageSections from "./HomepageSections";
 import sectionDetails from "./sectionDetail";
 
 function Homepage() {
+  let norm =
+    "BAGS seeks to be a better built, more flexible print solution for Bay Area and west coast businesses.";
+  let caps = norm.toUpperCase();
   return (
     <div className="App">
       <div className="banner-homepage">
@@ -31,12 +34,10 @@ function Homepage() {
         <HomepageSections details={sectionDetails} />
       </div>
 
-      <div className="end-section">
+      <div className="uncle">
+        <div className="end-section"> </div>
         <div className="box-text">
-          <h4 className="noto-font p-3">
-                BAGS seeks to be a better built, more flexible print solution
-                for Bay Area and west coast businesses.
-          </h4>
+          <h5 className="roboto-font p-3">{caps}</h5>
         </div>
       </div>
     </div>
