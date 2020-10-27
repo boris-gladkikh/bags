@@ -12,7 +12,7 @@ function About() {
         </div>
       </div>
       <div className="about-text">
-        <h2 className="noto-black-font">BAGS was founded by Joe Hardy in the spring of 2020.</h2>
+        <h1 className="staatliches-font">BAGS was founded by Joe Hardy in the spring of 2020.</h1>
         <h5 className="my-3">
           Owner Joe Hardy has over 16 years of experience in many aspects of
           printing, fabrication and project management. Joe has built a large

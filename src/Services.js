@@ -19,7 +19,7 @@ function Services() {
         <Row className="services-box">
           <Col md="6" sm="12">
             <div className="my-5 ">
-              <h1 className=" noto-black-font text-center">Design</h1>
+              <h1 className=" anton-font text-center">DESIGN</h1>
               <p className="text-left px-5">
                 The design portion of the business is based on print project
                 management and customization. We work with our customers to help
@@ -32,7 +32,7 @@ function Services() {
           </Col>
           <Col md="6" sm="12">
             <div className="my-5 ">
-              <h1 className=" noto-black-font text-center ">Print & Installation</h1>
+              <h1 className=" anton-font text-center ">PRINT & INSTALLATION</h1>
               <p className=" text-left px-5">
                 The printing side of the business is based on manufacturing and
                 installation. We provide an in house printing firm that
@@ -46,10 +46,10 @@ function Services() {
         </Row>
 
         <div className="client-box py-4">
-          <h1 className="roboto-font text-center pt-4">Our Clients</h1>
+          <h1 className="staatliches-font text-center pt-4">Our Clients</h1>
         </div>
         <div className="projects">
-        <h1 className=" roboto-font text-center pt-4">Projects</h1>
+        <h1 className=" staatliches-font text-center pt-4">Projects</h1>
 
           <Projects projects={projects} />
 

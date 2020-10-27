@@ -15,7 +15,7 @@ function Homepage() {
       </div>
 
       <div className="intro-section pb-5">
-        <h2 className="noto-black-font px-5 pt-5">
+        <h2 className="staatliches-font mx-3 px-5 pt-5">
           We are a printing & design company with an emphasis on customization
           and environmental graphic implementation.
         </h2>

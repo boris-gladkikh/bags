@@ -31,14 +31,23 @@ html {
   font-family: 'Noto Sans TC', sans-serif;
 }
 
-p, h1, h2, h5 {
-  font-family: 'Noto Sans TC', sans-serif;
-  
-}
-
 .noto-black-font {
   font-family: 'Noto Sans TC', sans-serif;
   font-weight: 900;
+  
+  
+}
 
+.staatliches-font {
+  
+  font-family: 'Staatliches', cursive;
+}
 
+.anton-font {
+  font-family: 'Anton', sans-serif;
+}
+
+p, h1, h2, h5 {
+  font-family: 'Noto Sans TC', sans-serif;
+  
 }
