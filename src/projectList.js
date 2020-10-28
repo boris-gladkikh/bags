@@ -1,29 +1,116 @@
 let projectList = [
   {
-    coverImg: "",
+    id: 1,
+    coverImg: "/photos/google-play-setup.jpg",
     title: "",
     description: "",
-    images:""
+    images: "",
   },
   {
-    coverImg: "",
+    id: 2,
+    coverImg: "/photos/plasma-control-tech.jpg",
     title: "",
     description: "",
-    images:""
+    images: "",
   },
   {
-    coverImg: "",
+    id: 3,
+    coverImg: "/photos/beatles-sub.jpg",
     title: "",
     description: "",
-    images:""
+    images: "",
   },
   {
-    coverImg: "",
+    id: 4,
+    coverImg: "/photos/calexo-display.jpg",
     title: "",
     description: "",
-    images:""
-  }
-
+    images: "",
+  },
+  {
+    id: 5,
+    coverImg: "/photos/dia-del-muerte-prints.jpg",
+    title: "",
+    description: "",
+    images: "",
+  },
+  {
+    id: 6,
+    coverImg: "/photos/eastman-roofing-wrap.jpg",
+    title: "",
+    description: "",
+    images: "",
+  },
+  {
+    id: 7,
+    coverImg: "/photos/door-detail.jpg",
+    title: "",
+    description: "",
+    images: "",
+  },
+  {
+    id: 8,
+    coverImg: "/photos/blm-prints.jpg",
+    title: "",
+    description: "",
+    images: "",
+  },
+  {
+    id: 9,
+    coverImg: "/photos/got-junk-wall.jpg",
+    title: "",
+    description: "",
+    images: "",
+  },
+  {
+    id: 10,
+    coverImg: "/photos/john-murray-truck-wrap.jpg",
+    title: "",
+    description: "",
+    images: "",
+  },
+  {
+    id: 11,
+    coverImg: "/photos/sticker-prints.jpg",
+    title: "",
+    description: "",
+    images: "",
+  },
+  {
+    id: 12,
+    coverImg: "/photos/sf-city-poster.jpg",
+    title: "",
+    description: "",
+    images: "",
+  },
+  {
+    id: 13,
+    coverImg: "/photos/google-hello-wall.jpg",
+    title: "",
+    description: "",
+    images: "",
+  },
+  {
+    id: 14,
+    coverImg: "/photos/sat-night-science.jpg",
+    title: "",
+    description: "",
+    images: "",
+  },
+  {
+    id: 15,
+    coverImg: "/photos/hagen-dazs.jpg",
+    title: "",
+    description: "",
+    images: "",
+  },
+  {
+    id: 16,
+    coverImg: "/photos/forest-wall.jpg",
+    title: "",
+    description: "",
+    images: "",
+  },
 ];
 
-export default projectList
+export default projectList;

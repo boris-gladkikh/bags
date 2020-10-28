@@ -35,6 +35,10 @@
 
 
 @media only screen and (max-width: 600px) {
+
+  .about-header-text {
+    top: 25%;
+  }
  .contact-header-text{
    top: 10%;
    max-width: 70%;

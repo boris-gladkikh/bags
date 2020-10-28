@@ -9,11 +9,13 @@
 }
 
 .client-box {
-  min-height: 40vh;
+  min-height: 30vh;
   background-color: rgb(241, 241, 241);
 
 }
 
 .projects {
   min-height: 70vh;
+  background-color: rgb(241, 241, 241);
+
 }

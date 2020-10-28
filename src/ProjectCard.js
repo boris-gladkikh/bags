@@ -1,11 +1,13 @@
 import React from 'react';
 import './ProjectCard.css';
 
-function ProjectCard(){
+
+
+function ProjectCard({project}){
   return (
     <div className="project-card">
-      Bwap
-
+      <img className="project-card-img" src={project.coverImg} alt={project.title}/>
+      
     </div>
   )
 }

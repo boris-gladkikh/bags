@@ -1,23 +1,17 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 import ProjectCard from "./ProjectCard";
 import projects from "./projectList";
+import './Projects.css';
 
 //component projects gallery. utilizes css grid for display, and renders projectCard components
 
 function Projects() {
   let renderProjects = projects.map((project) => (
-    <Col sm="12" md="6" lg="4" xl="3">
+    <div key={project.id}>
       <ProjectCard className="my-2" project={project} />
-    </Col>
+    </div>
   ));
-  return (
-    <Container className=" w-100 py-4">
-      <Row>{renderProjects}</Row>
-    </Container>
-  );
+  return <div className="project-grid ">{renderProjects}</div>;
 }
 
 export default Projects;

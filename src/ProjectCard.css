@@ -1,8 +1,18 @@
 .project-card {
   margin: auto;
-  width: 100%;
-  height: 200px;
-  /* padding: 10px; */
-  background-color: teal;
-  border: 1px solid black;
+  border: 1px solid white;
+  transition: 400ms all;
+  filter:brightness(70%);
+  /* overflow: hidden; */
+}
+
+.project-card-img {
+  max-width: 100%;
+  filter: sepia(30%);
+
+}
+
+.project-card:hover {
+  cursor: pointer;
+  filter:brightness(100%);
 }
