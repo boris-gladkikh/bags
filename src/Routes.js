@@ -7,6 +7,7 @@ import Contact from './Contact.js';
 import Homepage from './Homepage.js';
 import Footer from './Footer.js';
 
+//Renders all app routes, redirects homne in case of error
 
 function Routes(){
   return(
