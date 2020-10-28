@@ -39,7 +39,7 @@ function Services() {
                 eliminates many of the pitfalls that typically arise in having
                 separate design and print departments. In addition we also
                 provide installation services for graphics created by third
-                party fabricators to customers specifications.
+                party fabricators to customers' specifications.
               </p>
             </div>
           </Col>

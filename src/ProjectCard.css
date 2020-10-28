@@ -2,7 +2,7 @@
   margin: auto;
   border: 1px solid white;
   transition: 400ms all;
-  filter:brightness(70%);
+  filter:brightness(50%);
   /* overflow: hidden; */
 }
 
