@@ -9,7 +9,7 @@
   overflow: hidden;
 }
 
-.about-header-text {
+.about-header-text, .contact-header-text {
   border: 5px solid white;
   position: absolute;
   width: fit-content;
@@ -31,4 +31,12 @@
   min-height: 80vh;
   background-color: rgb(241, 241, 241);
   text-align: left;
+}
+
+
+@media only screen and (max-width: 600px) {
+ .contact-header-text{
+   top: 10%;
+   max-width: 70%;
+ }
 }

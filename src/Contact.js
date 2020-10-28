@@ -8,7 +8,7 @@ function Contact() {
     <div className="App">
       <div className="about-section">
         <img className="about-pic" src={oakland} alt="sf market street"></img>
-        <div className="about-header-text">
+        <div className="contact-header-text">
           <h1>REACH OUT ANYTIME.</h1>
         </div>
       </div>
