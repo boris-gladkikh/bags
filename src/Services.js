@@ -1,5 +1,5 @@
 import React from "react";
-import sfStreet from "./img/sf-street-crossing.jpg";
+import sfStreet from "./img/sf-street-crossing-lofi.jpg";
 import Projects from './Projects';
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";

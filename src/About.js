@@ -1,5 +1,5 @@
 import React from "react";
-import sfStreet from "./img/sf-night-storefront-shot.jpg";
+import sfStreet from "./img/sf-night-storefront-lofi.jpg";
 import "./About.css";
 
 function About() {

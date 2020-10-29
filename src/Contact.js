@@ -1,6 +1,6 @@
 import React from "react";
 import ContactForm from "./ContactForm.js";
-import oakland from "./img/sf-sunset.jpg";
+import oakland from "./img/sf-sunset-lofi.jpg";
 import './Contact.css';
 
 function Contact() {
