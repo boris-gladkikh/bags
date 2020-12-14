@@ -88,7 +88,7 @@ let projectList = [
     id: 14,
     coverImg: "/photos/sat-night-science.jpg",
     title: "PROJECT TITLE COMING SOON",
-    description: "",
+    description: "Vegan single-origin coffee pug typewriter. Asymmetrical put a bird on it pabst live-edge, bespoke selvage la croix unicorn. Tattooed DIY master cleanse palo santo coloring book pabst waistcoat kombucha chia gentrify YOLO tofu mlkshk polaroid. ",
     images: "",
   },
   {

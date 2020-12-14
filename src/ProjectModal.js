@@ -8,7 +8,7 @@ function ProjectModal({ project, setShowModal }) {
         <img src={project.coverImg} alt={project.title}></img>
         <div className="project-modal-text">
           <h4>{project.title}</h4>
-          <p>Click to close</p>
+          <p>(click to close)</p>
           <p>{project.description}</p>
         </div>
       </div>

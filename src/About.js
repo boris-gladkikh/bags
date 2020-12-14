@@ -22,14 +22,14 @@ function About() {
           Owner Joe Hardy has over 15 years of experience in many aspects of
           printing, fabrication and project management. Joe has built a large
           network in the Bay Area and has a vast repertoire of vendors to call
-          upon to specialize our focus to our customers needs.
+          upon to specialize our focus to our customers' needs.
         </h5>
         <p className="my-3">
           Bags seeks to be a better built, more flexible print solution for bay
           area and west coast businesses. By utilizing partnerships with
           traditional print houses we can be more adaptable to the rapidly
           changing economic climate and provide a more thorough service to our
-          customers.
+          clients.
         </p>
       </div>
     </div>
