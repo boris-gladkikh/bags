@@ -8,7 +8,7 @@ ABOUT
 SERVICES
   -Finish modals for project grid
   -get new pictures of projects, and include descriptions for all projects
-  -Include 
+  -include client list - put companies into client list
 
 MISC
   -compress all images (section headers, project card img's)

@@ -24,8 +24,7 @@ function Homepage() {
         </h2>
         <h5 className="roboto-font my-5 pt-5 px-5">
           Bay Area Graphic Solutions (BAGS) is a graphics fabricator,
-          installation service, project management service and design firm in
-          one.
+          installation service, project management service and design firm in one.
         </h5>
         <HomepageCards />
       </div>
