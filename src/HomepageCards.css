@@ -1,14 +1,18 @@
 
 .cardy {
-  height: max-content;
-  min-height: 300px;
+  height: 400px;
   padding: 2rem;
-  overflow:scroll;
+  overflow: hidden;
+  overflow-y: unset;
   box-shadow: 1px 1px 5px .5px lightgray;
   background-color: white;
 
 }
 
+
 .cardy p {
   color:darkslateblue;
+  text-align: left;
+
 }
+
