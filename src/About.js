@@ -1,6 +1,7 @@
 import React from "react";
 import sfStreet from "./img/sf-night-storefront-lofi.jpg";
 import "./About.css";
+import bagsLogo from "./img/BAGS-logo-brand.png";
 
 function About() {
   return (
@@ -10,6 +11,10 @@ function About() {
         <div className="about-header-text">
           <h1>WHO WE ARE</h1>
         </div>
+      </div>
+      <div id="bags-about-logo">
+
+      <img src={bagsLogo}  alt="bags logo"></img>
       </div>
       <div className="about-text">
         <h1 className="staatliches-font">BAGS was founded by Joe Hardy in the spring of 2020.</h1>

@@ -9,7 +9,8 @@
   overflow: hidden;
 }
 
-.about-header-text, .contact-header-text {
+.about-header-text,
+.contact-header-text {
   border: 5px solid white;
   position: absolute;
   width: fit-content;
@@ -17,14 +18,12 @@
   top: 40%;
   margin-left: auto;
   margin-right: auto;
-  left:0;
-  right:0;
+  left: 0;
+  right: 0;
   color: white;
-
 }
 .about-text {
-  background-color:white;
-  padding-top: 8rem;
+  padding-top: 4rem;
   padding-left: 15%;
   padding-right: 15%;
   padding-bottom: 8rem;
@@ -33,14 +32,22 @@
   text-align: left;
 }
 
+#bags-about-logo {
+  background-color: rgb(241, 241, 241);
+
+}
+#bags-about-logo img {
+  margin-top: 3rem;
+  height: 35vh;
+  width: auto;
+}
 
 @media only screen and (max-width: 600px) {
-
   .about-header-text {
     top: 25%;
   }
- .contact-header-text{
-   top: 10%;
-   max-width: 70%;
- }
+  .contact-header-text {
+    top: 10%;
+    max-width: 70%;
+  }
 }
