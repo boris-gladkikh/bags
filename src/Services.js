@@ -25,7 +25,7 @@ function Services() {
                 management and customization. We work with our customers to help
                 implement their design across a wide range of print mediums. In
                 addition we provide design and fabrication options to ensure
-                your design is seen the way the customer intends while staying
+                your design is seen the way you intend while staying
                 within the allotted budget.
               </p>
             </div>
@@ -35,9 +35,9 @@ function Services() {
               <h1 className=" anton-font text-center ">PRINT & INSTALLATION</h1>
               <p className=" text-left px-5">
                 The printing side of the business is based on manufacturing and
-                installation. We provide an in house printing firm that
+                installation. We provide an in-house printing firm that
                 eliminates many of the pitfalls that typically arise in having
-                separate design and print departments. In addition we also
+                separate design and print departments. Additionally we also
                 provide installation services for graphics created by third
                 party fabricators to customers' specifications.
               </p>
