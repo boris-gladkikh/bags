@@ -1,15 +1,16 @@
-import React from 'react';
-import './ProjectCard.css';
+import React from "react";
+import "./ProjectCard.css";
 
-
-
-function ProjectCard({project}){
+function ProjectCard({ project }) {
   return (
     <div className="project-card">
-      <img className="project-card-img" src={project.coverImg} alt={project.title}/>
-      
+      <img
+        className="project-card-img"
+        src={project.coverImg}
+        alt={project.title}
+      />
     </div>
-  )
+  );
 }
 
-export default ProjectCard
+export default ProjectCard;
