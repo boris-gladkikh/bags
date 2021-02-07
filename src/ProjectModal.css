@@ -6,19 +6,20 @@
   height: 100vh;
   top: 0;
   left: 0;
+  display:grid;
+  justify-items: center;
 }
 .project-modal {
   cursor: pointer;
   box-shadow: 1px 1px 0.5px grey;
-  width: 50vw;
+  width: 45vw;
   margin: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
+
   position: relative;
 }
 
 .project-modal img {
-  object-fit: cover;
+  object-fit: contain;
   width: 100%;
   margin: auto;
 }

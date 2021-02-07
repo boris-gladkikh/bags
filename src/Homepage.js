@@ -1,5 +1,5 @@
 import React from "react";
-import bridgeShot from "./img/sf-gg-bridge-shot.jpg";
+import bridgeShot from "./img/sf-gg-bridge-shot-LOFI.jpg";
 import bagsLogo from "./img/BAGS-logo-box-white.png";
 import HomepageCards from "./HomepageCards.js";
 import "./Homepage.css";

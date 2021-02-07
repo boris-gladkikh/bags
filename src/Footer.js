@@ -6,7 +6,7 @@ import './Footer.css';
 
 function Footer() {
   return (
-    <div className="text-center bg-dark text-white">
+    <div className=" pt-5 text-center bg-dark text-white">
 
       <Navbar className="text-white py-5">
         <Nav className="m-auto">

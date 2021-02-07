@@ -16,7 +16,8 @@ function Services() {
         </div>
       </div>
     
-        <Row className="services-box">
+   <div className="mt-5">
+   <Row className="services-box">
           <Col md="6" sm="12">
             <div className="my-5 ">
               <h1 className=" anton-font text-center">DESIGN</h1>
@@ -45,16 +46,15 @@ function Services() {
           </Col>
         </Row>
 
+   </div>
 
-        <div className="projects-box pt-4">
+        <div className="projects-box pt-3  mb-5">
         <h1 className=" staatliches-font text-center pt-2">Projects</h1>
 
           <Projects projects={projects} />
 
         </div>
-        <div className="client-box py-4">
-          <h1 className="staatliches-font text-center pt-4">Our Clients</h1>
-        </div>
+  
       </div>
   );
 }
