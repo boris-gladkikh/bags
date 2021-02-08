@@ -7,8 +7,8 @@ CONTACT
 
 
 SERVICES
-  -  insert text  for all projects
-  -  fix  grid modals on mobile layout (media  screens)
+  - insert final new projects
+  - implement carousel into projectModal and add images array into projectlist/conditional rendering
 
 
 MISC
