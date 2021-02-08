@@ -8,9 +8,9 @@ CONTACT
 
 SERVICES
   -  insert text  for all projects
+  -  fix  grid modals on mobile layout (media  screens)
 
 
 MISC
 
-  -  add  bags  browser icon
   -  link to URL and publish

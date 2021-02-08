@@ -3,13 +3,14 @@
   border: 1px solid white;
   transition: 400ms all;
   filter:brightness(50%);
-  height: 200px;
-  object-fit: cover;
+  max-height: 200px;
 }
 
 .project-card-img {
-  max-width: 100%;
+  width: 100%;
   filter: sepia(30%);
+  /* object-fit: contain; */
+  overflow:hidden;
 
 }
 
@@ -17,6 +18,3 @@
   cursor: pointer;
   filter:brightness(100%);
 }
-
-
-

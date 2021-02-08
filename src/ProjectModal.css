@@ -30,7 +30,7 @@
   width: fit-content;
   padding: 2rem;
   position: absolute;
-  bottom: 50%;
+  bottom: 30%;
   margin-top: 60%;
   opacity: 0;
   transition: 300ms all;
@@ -45,8 +45,17 @@
   filter:brightness(50%);
 }
 
-/* @media screen and (max-width: 800px){
+@media screen and (max-width: 800px){
   .project-modal {
-    width: 95vw;
+    width: 85vw;
   }
-} */
+
+  .project-modal-text{
+    bottom:0;
+    opacity: 1;
+  }
+  .project-modal img {
+    filter:brightness(70%);
+
+  }
+}
