@@ -1,7 +1,9 @@
 import React from "react";
 import sfStreet from "./img/sf-night-storefront-lofi.jpg";
+import joePhoto from "./img/joe-crop-2.jpg";
 import "./About.css";
 import bagsLogo from "./img/BAGS-logo-brand.png";
+// import { Row, Col } from "react-bootstrap";
 
 function About() {
   return (
@@ -13,24 +15,31 @@ function About() {
         </div>
       </div>
       <div id="bags-about-logo">
-
-      <img src={bagsLogo}  alt="bags logo"></img>
+        <img src={bagsLogo} alt="bags logo"></img>
       </div>
-      <div className="about-text">
-        <h1 className="staatliches-font">BAGS was founded by Joe Hardy in the spring of 2020.</h1>
-        <h5 className="my-3">
-          Owner Joe Hardy has over 15 years of experience in many aspects of
-          printing, fabrication and project management. Joe has built a large
-          network in the Bay Area and has a vast repertoire of vendors to call
-          upon to specialize our focus to our customers' needs.
-        </h5>
-        <p className="my-3">
-          Bags seeks to be a better built, more flexible print solution for bay
-          area and west coast businesses. By utilizing partnerships with
-          traditional print houses we can be more adaptable to the rapidly
-          changing economic climate and provide a more thorough service to our
-          clients.
-        </p>
+      <div className=" py-4 about-container">
+        <div className="joe-img-container">
+          <img src={joePhoto} className="joe-img" alt="joe in park"></img>
+        </div>
+
+        <div className="about-text">
+          <h1 className="staatliches-font">
+            BAGS was founded by Joe Hardy in the spring of 2020.
+          </h1>
+          <h5 className="my-3">
+            Owner Joe Hardy has over 15 years of experience in many aspects of
+            printing, fabrication and project management. Joe has built a large
+            network in the Bay Area and has a vast repertoire of vendors to call
+            upon to specialize our focus to our customers' needs.
+          </h5>
+          <p className="my-3">
+            Bags seeks to be a better built, more flexible print solution for
+            bay area and west coast businesses. By utilizing partnerships with
+            traditional print houses we can be more adaptable to the rapidly
+            changing economic climate and provide a more thorough service to our
+            clients.
+          </p>
+        </div>
       </div>
     </div>
   );

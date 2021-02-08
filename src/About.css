@@ -23,13 +23,30 @@
   color: white;
 }
 .about-text {
-  padding-top: 4rem;
-  padding-left: 15%;
+  padding-top: 3rem;
   padding-right: 15%;
   padding-bottom: 8rem;
   min-height: 80vh;
   background-color: rgb(241, 241, 241);
   text-align: left;
+}
+
+.about-container {
+  display: grid;
+  background-color: rgb(241, 241, 241);
+  grid-template-columns: 500px 500px;
+  column-gap: 0px;
+  justify-content: center;
+  
+}
+
+.joe-img-container{
+  margin-top: 50px;
+}
+
+.joe-img {
+max-width: 400px;
+
 }
 
 #bags-about-logo {
@@ -42,6 +59,21 @@
   width: auto;
 }
 
+@media only screen and (max-width: 900px) {
+.joe-img {
+  padding:  15px;
+}
+
+  .about-container{
+    grid-template-columns: 500px;
+    
+  }
+
+  .about-text {
+    padding-left: 15%;
+
+  }
+}
 @media only screen and (max-width: 600px) {
   .about-header-text {
     top: 25%;
@@ -50,4 +82,6 @@
     top: 10%;
     max-width: 70%;
   }
+
 }
+
