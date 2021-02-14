@@ -1,9 +1,16 @@
 import React, { useState } from "react";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
+import functions from './functions';
 
+const INITDATA = {
+  name:"",
+  email:"",
+  subject:"",
+  message:""
+}
 function ContactForm() {
-  const [formData, setFormData] = useState();
+  const [formData, setFormData] = useState({...INITDATA});
 
   function handleChange(evt) {
     let { name, value } = evt.target;
@@ -14,10 +21,12 @@ function ContactForm() {
   }
   function handleSubmit(evt) {
     evt.preventDefault();
-    console.log("form data", formData);
+    functions.submitEmailData(formData);
+    // console.log("form data", formData);
   }
   return (
-    <Form className="my-5 m-auto w-75" onSubmit={handleSubmit}>
+    <Form name="contact" className="my-5 m-auto w-75" onSubmit={handleSubmit}>
+
       <Form.Group>
         <Form.Label htmlFor="name"></Form.Label>
         <Form.Control
@@ -47,7 +56,7 @@ function ContactForm() {
         <Form.Control
           onChange={handleChange}
           required
-          type="text"
+          type="subject"
           id="subject"
           name="subject"
           placeholder="Subject"
@@ -55,19 +64,21 @@ function ContactForm() {
       </Form.Group>
 
       <Form.Group>
-        <Form.Label htmlFor="body"></Form.Label>
+        <Form.Label htmlFor="message"></Form.Label>
         <Form.Control
           onChange={handleChange}
           required
           rows="5"
           as="textarea"
-          id="body"
-          name="body"
+          id="message"
+          name="message"
           placeholder="Body"
         />
       </Form.Group>
 
-      <Button variant="secondary" type="submit">Submit</Button>
+      <Button variant="secondary" type="submit">
+        Submit
+      </Button>
     </Form>
   );
 }
