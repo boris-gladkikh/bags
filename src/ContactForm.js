@@ -41,12 +41,14 @@ function ContactForm() {
       [name]: value,
     }));
   }
-  function handleSubmit(evt) {
-    evt.preventDefault();
-    setIsLoading(true);
-  }
+  // function handleSubmit(evt) {
+  //   evt.preventDefault();
+  //   setIsLoading(true);
+  // }
   return (
-    <Form name="contact" className="my-5 m-auto w-75" onSubmit={handleSubmit}>
+    <Form data-netlify="true" name="contact" className="my-5 m-auto w-75" >
+          <input type="hidden" name="form-name" value="contact" />
+
 
       <Form.Group>
         <Form.Label htmlFor="name"></Form.Label>
