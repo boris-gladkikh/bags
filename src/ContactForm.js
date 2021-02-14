@@ -1,16 +1,38 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
-import functions from './functions';
+import {submitEmailData} from './functions';
 
 const INITDATA = {
   name:"",
   email:"",
   subject:"",
-  message:""
 }
 function ContactForm() {
   const [formData, setFormData] = useState({...INITDATA});
+  const [message, setMessage] = useState("");
+  const [isLoading, setIsLoading] = useState(false);
+
+  useEffect(function(){
+    async function sendData() {
+      try{
+        const resp = await submitEmailData(formData);
+        setMessage("Succesfully Submitted");
+        console.log(resp)
+
+      } catch(err) {
+        console.error(err);
+        setMessage(err.message)
+      } 
+    }
+    if(isLoading){
+      sendData(formData);
+      setIsLoading(false);
+    }
+  }, [formData, isLoading]);
+
+
+
 
   function handleChange(evt) {
     let { name, value } = evt.target;
@@ -21,8 +43,7 @@ function ContactForm() {
   }
   function handleSubmit(evt) {
     evt.preventDefault();
-    functions.submitEmailData(formData);
-    // console.log("form data", formData);
+    setIsLoading(true);
   }
   return (
     <Form name="contact" className="my-5 m-auto w-75" onSubmit={handleSubmit}>
@@ -79,6 +100,9 @@ function ContactForm() {
       <Button variant="secondary" type="submit">
         Submit
       </Button>
+      <div>
+        {message}
+      </div>
     </Form>
   );
 }

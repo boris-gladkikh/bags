@@ -1,12 +1,19 @@
 import axios from 'axios';
 // import nodemailer from 'nodemailer';
-const headers =  {"Content-Type": "application/x-www-form-urlencoded" };
 
-const functions = () => {
+
   
-  const submitEmailData = async(data) => {
+  export const submitEmailData = async(dataObject) => {
+    const headers =  {"Content-Type": "application/x-www-form-urlencoded" };
+
+    const encode = (data) => {
+      return Object.keys(data)
+          .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+          .join("&");
+    }
+    const encodedData = encode(dataObject);
     try{
-    const res = await axios.post("/", data,{headers});
+    const res = await axios.post("/", encodedData,{headers});
     return res.data;
     } catch (err){
       console.error(err);
@@ -14,13 +21,6 @@ const functions = () => {
   };
   
 
-
-  return {
-    submitEmailData,
-  }
-};
-
-export default functions
 
 
 
