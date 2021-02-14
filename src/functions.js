@@ -1,5 +1,5 @@
 import axios from 'axios';
-import nodemailer from 'nodemailer';
+// import nodemailer from 'nodemailer';
 const headers =  {"Content-Type": "application/x-www-form-urlencoded" };
 
 const functions = () => {
