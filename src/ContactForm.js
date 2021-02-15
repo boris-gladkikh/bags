@@ -41,13 +41,13 @@ function ContactForm() {
       [name]: value,
     }));
   }
-  // function handleSubmit(evt) {
-  //   evt.preventDefault();
-  //   setIsLoading(true);
-  // }
+  function handleSubmit(evt) {
+    evt.preventDefault();
+    setIsLoading(true);
+  }
   return (
-    <Form data-netlify="true" name="contact" className="my-5 m-auto w-75" >
-          <input type="hidden" name="form-name" value="contact" />
+    <Form data-netlify="true" name="contact-form" className="my-5 m-auto w-75" onSubmit={handleSubmit} >
+          <input type="hidden" name="form-name" value="contact-form" />
 
 
       <Form.Group>
@@ -79,7 +79,7 @@ function ContactForm() {
         <Form.Control
           onChange={handleChange}
           required
-          type="subject"
+          type="text"
           id="subject"
           name="subject"
           placeholder="Subject"
