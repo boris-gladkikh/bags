@@ -29,6 +29,10 @@ function ContactForm() {
     if(isLoading){
       sendData(formData);
       setIsLoading(false);
+      setTimeout(function(){
+        setFormData({...INITDATA});
+        setMessage("");
+      }, 5000)
     }
   }, [formData, isLoading]);
 
@@ -57,6 +61,7 @@ function ContactForm() {
           type="text"
           id="name"
           name="name"
+          value={formData.name}
           placeholder="Name"
         />
       </Form.Group>
@@ -69,6 +74,7 @@ function ContactForm() {
           type="Email"
           id="email"
           name="email"
+          value={formData.email}
           placeholder="Email"
         />
       </Form.Group>
@@ -81,6 +87,7 @@ function ContactForm() {
           type="text"
           id="subject"
           name="subject"
+          value={formData.subject}
           placeholder="Subject"
         />
       </Form.Group>
@@ -94,6 +101,7 @@ function ContactForm() {
           as="textarea"
           id="message"
           name="message"
+          value={formData.message}
           placeholder="Body"
         />
       </Form.Group>
