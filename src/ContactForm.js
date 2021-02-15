@@ -7,6 +7,7 @@ const INITDATA = {
   name:"",
   email:"",
   subject:"",
+  message:"",
 }
 function ContactForm() {
   const [formData, setFormData] = useState({...INITDATA});
@@ -46,9 +47,7 @@ function ContactForm() {
     setIsLoading(true);
   }
   return (
-    <Form data-netlify="true" name="contact-form" className="my-5 m-auto w-75" onSubmit={handleSubmit} >
-          <input type="hidden" name="form-name" value="contact-form" />
-
+    <Form  name="contact-form" className="my-5 m-auto w-75" onSubmit={handleSubmit} >
 
       <Form.Group>
         <Form.Label htmlFor="name"></Form.Label>
